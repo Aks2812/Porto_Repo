@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+header{
+    background-color: rgba(0, 0, 0, 0.853);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 7rem;
+}
+
+.header-right{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding-right: 1rem;
+}
+
+
+/* SECTION NO TABLE */
+section{
+    background-color: black;
+    padding: 5rem;
+}
+
+.forms{
+    background-color: rgba(128, 128, 128, 0.393);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    margin: 0 16rem;
+}
+
+.forms label{
+    color: white;
+}
+
+.premium{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.regis p{
+    color: white;
+}
+
+.email{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.pwd{
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.btn-submit{
+    background-color: blue;
+    width: 4.5rem;
+    color: white;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.subs-type{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.subs-type label{
+    margin-left: -10rem;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: rgba(0, 0, 0, 0.853);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    height: 8rem;
+    width: 100%;
+}
+
+footer img{
+    width: 2rem;
+}
+
+.footer-left{
+    color: white;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 2rem;
+}

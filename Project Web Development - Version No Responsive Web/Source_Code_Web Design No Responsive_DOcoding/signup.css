@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+header img {
+    width: 11rem;
+}
+
+.header-right {
+    color: white;
+    background-color: black;
+    width: 96.9%;
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+}
+
+.header-right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* SECTION */
+section{
+    display: flex;
+    background-color: rgba(74, 71, 71, 0.848);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    padding: 12rem 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-bottom: 15rem;
+}
+
+.word{
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius:20px;
+    padding:0.5rem 0;
+    text-align: center;
+}
+
+.pw{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius:20px;
+    padding:0.5rem 0;
+    text-align: center;
+}
+
+.usr{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius:20px;
+    padding:0.5rem 0;
+    text-align: center;
+}
+
+.word-G{
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.gender-side{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.gender-side label{
+    margin-left: -2rem;
+    color: white;
+    font-weight: normal;
+}
+
+
+.btn{
+    margin-top: 1.5rem;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.agree{
+    color: white;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgba(0, 0, 0, 0.736);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    height: 8rem;
+    width: 100%;
+}
+
+footer img {
+    width: 2rem;
+}
+
+.footer-left {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    padding-left: 2rem;
+}
+
+.footer-right {
+    display: flex;
+    gap: 7px;
+    padding-right: 2rem;
+}
+
+.DO{
+    padding-left: 4px;
+    color: rgb(105, 236, 199);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

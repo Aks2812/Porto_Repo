@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(248, 203, 163);
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    width: 9rem;
+}
+
+.header-top {
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-top a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* SECTION */
+.rent-form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    padding: 0.4rem 0;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    width: 44%;
+    text-align: center;
+}
+
+.addr{
+    margin: 1rem 0;
+}
+
+.btn-sub{
+    justify-content: center;
+    margin: 5px 0;
+    width: 10%;
+    padding: 2px 0;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn-sub:hover{
+    background-color: palegoldenrod;
+    transition: 0.1s;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: rgb(248, 203, 163);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 0;
+    height: 6rem;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-left img{
+    width: 8rem;
+}
+
+.footer-right img{
+    width: 2rem;
+}
